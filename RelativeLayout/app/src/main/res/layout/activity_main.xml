@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/tombol1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Tombol 1" />
+
+    <Button
+        android:id="@+id/tombol2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="37dp"
+        android:layout_toRightOf="@+id/tombol1"
+        android:text="Tombol 2" />
+
+    <Button
+        android:id="@+id/tombol3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="150dp"
+        android:text="Tombol 3" />
+
+    <Button
+        android:id="@+id/tombol4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tombol2"
+        android:layout_below="@+id/tombol2"
+        android:layout_marginTop="70dp"
+        android:text="Tombol 4" />
+
+    <Button
+        android:id="@+id/tombol5"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tombol3"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="22dp"
+        android:text="Tombol 5" />
+
+</RelativeLayout>
