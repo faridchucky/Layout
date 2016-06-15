@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/welcome_pesan"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#036e64"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/welcome_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Selamat datang di Digital Lounge Balikpapan"
+            android:textColor="#ddd"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/welcome_messgae"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/welcome_title"
+            android:text="Digital Innovation Lounge, bertempat di Jl. MT. Haryono, Balikpapan Dilo (Digital Inovation Lounge) sebuah Creative Camp yang dikembangkan oleh MIKTI bekerja sama dengan Telkom, sebagai pusat interaksi peminat dan pelaku industri kreatif digital di kota Balikpapan yang bertujuan menciptakan bibit-bibit Digital Preneur yang selanjutnya siap masuk ke industri (Creative Center)."
+            android:textColor="#ddd"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="bottom"
+            android:background="#3b978d"
+            android:onClick="dismisWelcomeMessageBox"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="Got It"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#95a5a6"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pesan ini akan tampil setelah kalian melihat welcome screen dengan text "
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Digital Lounge"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+</RelativeLayout>
