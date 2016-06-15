@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="3dp"
+    android:scrollbarThumbVertical="@drawable/vertical_scrollview_bg"
+    android:scrollbarTrackVertical="@drawable/vertical_scrollview_line"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contoh Custom Vertical ScrollView Vertical"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Digital Innovation Lounge, bertempat di Jl. MT. Haryono, Balikpapan Dilo (Digital Inovation Lounge) sebuah Creative Camp yang dikembangkan oleh MIKTI bekerja sama dengan Telkom, sebagai pusat interaksi peminat dan pelaku industri kreatif digital di kota Balikpapan yang bertujuan menciptakan bibit-bibit Digital Preneur yang selanjutnya siap masuk ke industri (Creative Center).
+
+Didalam Creative Camp, komunitas kreatif digital akan diberikan pemahaman mengenai arah yang sebaiknya dilalui untuk masuk ke industri kreatif digital, termasuk arah sektor industri yang potensial untuk dijalani.\n\n
+Digital Innovation Lounge, bertempat di Jl. MT. Haryono, Balikpapan Dilo (Digital Inovation Lounge) sebuah Creative Camp yang dikembangkan oleh MIKTI bekerja sama dengan Telkom, sebagai pusat interaksi peminat dan pelaku industri kreatif digital di kota Balikpapan yang bertujuan menciptakan bibit-bibit Digital Preneur yang selanjutnya siap masuk ke industri (Creative Center).
+
+Didalam Creative Camp, komunitas kreatif digital akan diberikan pemahaman mengenai arah yang sebaiknya dilalui untuk masuk ke industri kreatif digital, termasuk arah sektor industri yang potensial untuk dijalani.\n\n
+
+Digital Innovation Lounge, bertempat di Jl. MT. Haryono, Balikpapan Dilo (Digital Inovation Lounge) sebuah Creative Camp yang dikembangkan oleh MIKTI bekerja sama dengan Telkom, sebagai pusat interaksi peminat dan pelaku industri kreatif digital di kota Balikpapan yang bertujuan menciptakan bibit-bibit Digital Preneur yang selanjutnya siap masuk ke industri (Creative Center).
+
+Didalam Creative Camp, komunitas kreatif digital akan diberikan pemahaman mengenai arah yang sebaiknya dilalui untuk masuk ke industri kreatif digital, termasuk arah sektor industri yang potensial untuk dijalani.\n\n
+Digital Innovation Lounge, bertempat di Jl. MT. Haryono, Balikpapan Dilo (Digital Inovation Lounge) sebuah Creative Camp yang dikembangkan oleh MIKTI bekerja sama dengan Telkom, sebagai pusat interaksi peminat dan pelaku industri kreatif digital di kota Balikpapan yang bertujuan menciptakan bibit-bibit Digital Preneur yang selanjutnya siap masuk ke industri (Creative Center).
+
+Didalam Creative Camp, komunitas kreatif digital akan diberikan pemahaman mengenai arah yang sebaiknya dilalui untuk masuk ke industri kreatif digital, termasuk arah sektor industri yang potensial untuk dijalani.\n\n" />
+
+    </LinearLayout>
+</ScrollView>
